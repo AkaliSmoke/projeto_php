@@ -9,7 +9,7 @@ body{
 
 .item{
     padding: 10px;
-    width: 250px;
+    width: 260px;
     margin: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: sans-serif;
@@ -22,5 +22,5 @@ body{
 
 .item h3{
     text-align: center;
-    color: tomato;
+    color: orangered;
 } 

@@ -25,11 +25,34 @@
         
         <?php /*cada item é o conjunto de informações de uma mulher*/  ?>
         <div class="item">
-            
+            <img src="<?php echo $arrMulheres[0][1];?>">
+            <h3><?php echo $arrMulheres[0][0]; ?></h3>
+            <p><?php echo $arrMulheres[0][2]?></p>
         </div>
         
-    </div>
+        <div class="item">
+            <img src="<?php echo $arrMulheres[1][1];?>">
+            <h3><?php echo $arrMulheres[1][0]; ?></h3>
+            <p><?php echo $arrMulheres[1][2]?></p>
+        </div>
 
-    
+        <div class="item">
+            <img src="<?php echo $arrMulheres[2][1];?>">
+            <h3><?php echo $arrMulheres[2][0]; ?></h3>
+            <p><?php echo $arrMulheres[2][2]?></p>
+        </div>
+
+        <div class="item">
+            <img src="<?php echo $arrMulheres[3][1];?>">
+            <h3><?php echo $arrMulheres[3][0]; ?></h3>
+            <p><?php echo $arrMulheres[3][2]?></p>
+        </div>
+
+        <div class="item">
+            <img src="<?php echo $arrMulheres[4][1];?>">
+            <h3><?php echo $arrMulheres[4][0]; ?></h3>
+            <p><?php echo $arrMulheres[4][2]?></p>
+        </div>
+    </div>
 </body>
 </html> 
