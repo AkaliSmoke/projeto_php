@@ -9,10 +9,10 @@
     <h1>Cadastro de cliente</h1>
     <form action="cadastrar.php" method="post">
         <label>Nome:</label>
-        <input type="text" name="nome" placeholder="Digite seu nome:"><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome:"><br>
         
         <label>Idade:</label>
-        <input type="number" name="idade"  min="0" max="120"><br>
+        <input type="number" name="idade" id="idade"  min="0" max="120"><br>
 
         <label>Gênero:</label><br>
         <input type="radio" id="masc" name="genero" value="masculino">
@@ -25,17 +25,45 @@
         <label for="outro">Outro</label><br>
         
         <label for="tel_contato">Telefone:</label>
-        <input type="tel" id="tel_contato" name="telefone" placeholder="(11) 99999-9999">
+        <input type="tel" id="tel_contato" name="telefone">
         <br>
 
         <label>Estado:</label>
-        <input type="number" name="estado"><br>
+        <select name="estado" id="estado">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select><br>
 
         <label>Cidade:</label>
-        <input type="number" name="cidade"><br>
+        <input type="text" id="cidade" name="cidade"><br>
 
         <label>CPF:</label>
-        <input type="number" name="cpf"><br>
+        <input type="text" id="cpf" name="cpf"><br>
 
         
         <button type="submit">Salvar</button>
