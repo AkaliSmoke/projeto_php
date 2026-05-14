@@ -7,5 +7,7 @@ $estado = $_POST['estado'];
 $cidade = $_POST['cidade'];
 $cpf = $_POST['cpf'];
 
-echo "$nome <br> $idade <br> $genero <br> $telefone <br> $estado <br> $cidade <br> $cpf"
+$arquivo = fopen("cliente_db.txt", "a");
+fwrite($arquivo, "$nome \t $idade \t $genero \t $telefone \t $estado \t $cidade \t $cpf \n ");
+fclose($arquivo);
 ?>

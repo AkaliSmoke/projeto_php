@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Cadastro de cliente</h1>
-    <form action="cadastrar.php" method="post">
+    <form action="cliente-salvar.php" method="post">
         <label>Nome:</label>
         <input type="text" name="nome" id="nome" placeholder="Digite seu nome:"><br>
         
@@ -25,7 +25,7 @@
         <label for="outro">Outro</label><br>
         
         <label for="tel_contato">Telefone:</label>
-        <input type="tel" id="tel_contato" name="telefone">
+        <input type="tel" id="tel_contato" name="telefone" placeholder="(99) 99999-9999">
         <br>
 
         <label>Estado:</label>
